@@ -342,7 +342,7 @@ CREATE TABLE `users` (
   `email` varchar(20) NOT NULL COMMENT 'email邮箱',
   `intro` varchar(255) NOT NULL COMMENT '个人简历',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- ----------------------------
 -- Records of users
