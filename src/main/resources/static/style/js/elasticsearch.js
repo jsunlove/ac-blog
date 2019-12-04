@@ -7,8 +7,8 @@ var pageSize = 2;
  */
 function putInAllArticle(data) {
     var length = data.length;
-    $(".qiang").html('');
-    var artiles = $(".qiang");
+    $(".jsun").html('');
+    var artiles = $(".jsun");
     if (length == 0) {
         var center = $(
             '<div class="qz-center">' +

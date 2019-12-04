@@ -2,7 +2,7 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.qiang.modules.sys.dao.RepGuestDao">
+<mapper namespace="com.jsun.modules.sys.dao.RepGuestDao">
 
     <update id="updGuestIsRead" parameterType="java.util.List">
         update repguest c

@@ -2,7 +2,7 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.qiang.modules.sys.dao.CommentLikeDao">
+<mapper namespace="com.jsun.modules.sys.dao.CommentLikeDao">
 
     <select id="findLikes" parameterType="String" resultType="CommentLikesEntity">
         select cl.*, b.title

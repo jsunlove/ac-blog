@@ -48,7 +48,7 @@ spring:
     cache: false
 
 
-qiang:
+jsun:
   ######################################
   ########### session cache config
   ######################################
@@ -70,6 +70,6 @@ qiang:
 logging:
   level:
     root: warn
-    com.qiang.modules.sys.dao: trace
+    com.jsun.modules.sys.dao: trace
   pattern:
     console: '%p%m%n'
