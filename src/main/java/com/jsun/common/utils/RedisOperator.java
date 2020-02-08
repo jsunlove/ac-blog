@@ -18,7 +18,7 @@ public class RedisOperator {
 	 * @Resource 默认以名字来比较
 	 */
 	@Autowired
-	private RedisTemplate redisTemplate;
+	private RedisTemplate<String, Object> redisTemplate;
 	
 	// Key（键），简单的key-value操作
 
